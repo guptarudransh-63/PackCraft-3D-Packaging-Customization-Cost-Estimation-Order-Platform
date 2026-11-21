@@ -1,0 +1,12 @@
+{
+  "name": "packcraft-monorepo",
+  "version": "1.0.0",
+  "description": "PackCraft — 3D Packaging Customization, Dynamic Cost Estimation & Order Fulfillment Platform",
+  "private": true,
+  "scripts": {
+    "start:server": "cd server && npm start",
+    "start:client": "cd client && npm run dev",
+    "seed": "cd server && npm run seed",
+    "build": "cd client && npm run build"
+  }
+}
